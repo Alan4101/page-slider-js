@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Test task</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 
 </head>
 
@@ -29,7 +30,7 @@
                 <!---->
                 <div class="section section-img">
                     <div class="wrapper-picture">
-                        <img src="img/section2.jpg" alt="">
+                        <img data-object-fit='cover' src="img/section2.jpg" alt="">
                     </div>
                 </div>
                 <!---->
@@ -66,10 +67,10 @@
             <ul class="list-control"></ul>
         </div>
     </main>
-
-    <script src="assets/js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="assets/js/slick.js"></script>
+    <script src="src/js/slick.js"></script>
+    <script src="dist/main.js"></script>
+
 </body>
 </html>

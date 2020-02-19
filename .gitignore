@@ -1,4 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
 temp.html
-assets/temp2.html
+src/temp2.html
+ss.js
+node_modules
